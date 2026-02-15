@@ -1,0 +1,10 @@
+{
+  "name": "family-messenger",
+  "version": "1.0.0",
+  "description": "Simple family messenger without external dependencies",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  }
+}

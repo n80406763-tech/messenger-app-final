@@ -1,0 +1,122 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "support",
+      "passwordHash": "c272ee9abade7c872fef62ca0d5a9994:07979a8543fe63e7ec2777193164e3a8e9447d276a84d9b9eb3584b48e765c9ebed42ff7538a98bb5e6270f1a582f0b4c0270c42848fc556b41e46bcc06a9619",
+      "role": "support_admin",
+      "avatar": null,
+      "hideName": false,
+      "lastSeenAt": "2026-02-15T17:35:02.816Z",
+      "showOnlineStatus": true,
+      "allowAvatarView": true,
+      "allowAvatarDownload": false
+    },
+    {
+      "id": 2,
+      "username": "helper",
+      "passwordHash": "16d8e86835fad76094d5546102107868:657860998ec5ae565ef6f416b6e51cb55c97fd99580476aad5323910cfba440b8bdfe47bd9b4acbd224b90f33be03e4cbac64be9f10170000a54c2b47a39a3d1",
+      "role": "support_agent",
+      "avatar": null,
+      "hideName": false,
+      "lastSeenAt": null,
+      "showOnlineStatus": true,
+      "allowAvatarView": true,
+      "allowAvatarDownload": false
+    },
+    {
+      "id": 3,
+      "username": "mum",
+      "passwordHash": "b45d1c13a0316e1c74b1e28a33c23241:ab587ce69a0d333186eb14917f859138c595def8e064762c1422c35a7499275ee3c67a8df3bec8d830c335cf0e06c8220adc542e26a430933408ec122ff7a45e",
+      "role": "user",
+      "avatar": null,
+      "hideName": false,
+      "lastSeenAt": "2026-02-15T17:33:22.746Z",
+      "showOnlineStatus": true,
+      "allowAvatarView": true,
+      "allowAvatarDownload": false
+    }
+  ],
+  "conversations": [
+    {
+      "id": 1,
+      "type": "support",
+      "title": "Чат поддержки",
+      "participantIds": [
+        3
+      ],
+      "createdAt": "2026-02-15T17:31:11.863Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "conversationId": 1,
+      "senderId": 0,
+      "senderName": "Support",
+      "text": "Здравствуйте! Опишите проблему подробно. Мы поможем.",
+      "attachment": null,
+      "createdAt": "2026-02-15T17:31:11.863Z"
+    },
+    {
+      "id": 2,
+      "conversationId": 1,
+      "senderId": 3,
+      "text": "привет",
+      "attachment": null,
+      "createdAt": "2026-02-15T17:33:32.250Z"
+    },
+    {
+      "id": 3,
+      "conversationId": 1,
+      "senderId": 1,
+      "text": "привет,в чем проблема?",
+      "attachment": null,
+      "createdAt": "2026-02-15T17:33:55.264Z"
+    },
+    {
+      "id": 4,
+      "conversationId": 1,
+      "senderId": 3,
+      "text": "Жалоба: Проблема с аккаунтом",
+      "attachment": null,
+      "createdAt": "2026-02-15T17:34:02.532Z"
+    },
+    {
+      "id": 5,
+      "conversationId": 1,
+      "senderId": 0,
+      "senderName": "Support",
+      "text": "Спасибо, мы приняли обращение: \"Проблема с аккаунтом\". Оператор проверит и ответит в этом чате.",
+      "attachment": null,
+      "createdAt": "2026-02-15T17:34:02.535Z"
+    },
+    {
+      "id": 6,
+      "conversationId": 1,
+      "senderId": 1,
+      "text": "Жалоба: Проблема с аккаунтом",
+      "attachment": null,
+      "createdAt": "2026-02-15T17:34:16.799Z"
+    },
+    {
+      "id": 7,
+      "conversationId": 1,
+      "senderId": 1,
+      "text": "верно?",
+      "attachment": null,
+      "createdAt": "2026-02-15T17:34:28.610Z"
+    },
+    {
+      "id": 8,
+      "conversationId": 1,
+      "senderId": 3,
+      "text": "да",
+      "attachment": null,
+      "createdAt": "2026-02-15T17:34:33.917Z"
+    }
+  ],
+  "nextUserId": 4,
+  "nextConversationId": 2,
+  "nextMessageId": 9
+}
